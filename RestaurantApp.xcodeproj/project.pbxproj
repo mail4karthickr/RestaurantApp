@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B426FD9B2DC8E10D00A4679A /* RestaurantDetails in Resources */ = {isa = PBXBuildFile; fileRef = B426FD9A2DC8E10D00A4679A /* RestaurantDetails */; };
+		B4BCFF932DC8E15F006A4348 /* Checkout in Frameworks */ = {isa = PBXBuildFile; productRef = B4BCFF922DC8E15F006A4348 /* Checkout */; };
+		B4BCFF952DC8E15F006A4348 /* RestaurantDetails in Frameworks */ = {isa = PBXBuildFile; productRef = B4BCFF942DC8E15F006A4348 /* RestaurantDetails */; };
+		B4BCFF972DC8E15F006A4348 /* RestaurantFinder in Frameworks */ = {isa = PBXBuildFile; productRef = B4BCFF962DC8E15F006A4348 /* RestaurantFinder */; };
 		B4DF80122DC8DF60008F5EE8 /* RestaurantFinder in Resources */ = {isa = PBXBuildFile; fileRef = B4DF800D2DC8DF60008F5EE8 /* RestaurantFinder */; };
 		B4DF80132DC8DF60008F5EE8 /* Checkout in Resources */ = {isa = PBXBuildFile; fileRef = B4DF800C2DC8DF60008F5EE8 /* Checkout */; };
 /* End PBXBuildFile section */
@@ -32,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BCFF952DC8E15F006A4348 /* RestaurantDetails in Frameworks */,
+				B4BCFF932DC8E15F006A4348 /* Checkout in Frameworks */,
+				B4BCFF972DC8E15F006A4348 /* RestaurantFinder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4BCFF912DC8E15E006A4348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B4DF7FD82DC8DBFD008F5EE8 = {
 			isa = PBXGroup;
 			children = (
 				B4DF800E2DC8DF60008F5EE8 /* packages */,
 				B4DF7FE32DC8DBFD008F5EE8 /* RestaurantApp */,
+				B4BCFF912DC8E15E006A4348 /* Frameworks */,
 				B4DF7FE22DC8DBFD008F5EE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +99,9 @@
 			);
 			name = RestaurantApp;
 			packageProductDependencies = (
+				B4BCFF922DC8E15F006A4348 /* Checkout */,
+				B4BCFF942DC8E15F006A4348 /* RestaurantDetails */,
+				B4BCFF962DC8E15F006A4348 /* RestaurantFinder */,
 			);
 			productName = RestaurantApp;
 			productReference = B4DF7FE12DC8DBFD008F5EE8 /* RestaurantApp.app */;
@@ -343,6 +360,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4BCFF922DC8E15F006A4348 /* Checkout */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Checkout;
+		};
+		B4BCFF942DC8E15F006A4348 /* RestaurantDetails */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RestaurantDetails;
+		};
+		B4BCFF962DC8E15F006A4348 /* RestaurantFinder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RestaurantFinder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4DF7FD92DC8DBFD008F5EE8 /* Project object */;
 }
