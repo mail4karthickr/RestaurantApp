@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B426FD9B2DC8E10D00A4679A /* RestaurantDetails in Resources */ = {isa = PBXBuildFile; fileRef = B426FD9A2DC8E10D00A4679A /* RestaurantDetails */; };
+		B4DF80122DC8DF60008F5EE8 /* RestaurantFinder in Resources */ = {isa = PBXBuildFile; fileRef = B4DF800D2DC8DF60008F5EE8 /* RestaurantFinder */; };
+		B4DF80132DC8DF60008F5EE8 /* Checkout in Resources */ = {isa = PBXBuildFile; fileRef = B4DF800C2DC8DF60008F5EE8 /* Checkout */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		B426FD9A2DC8E10D00A4679A /* RestaurantDetails */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RestaurantDetails; sourceTree = "<group>"; };
 		B4DF7FE12DC8DBFD008F5EE8 /* RestaurantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DF800C2DC8DF60008F5EE8 /* Checkout */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Checkout; sourceTree = "<group>"; };
+		B4DF800D2DC8DF60008F5EE8 /* RestaurantFinder */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RestaurantFinder; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +41,7 @@
 		B4DF7FD82DC8DBFD008F5EE8 = {
 			isa = PBXGroup;
 			children = (
+				B4DF800E2DC8DF60008F5EE8 /* packages */,
 				B4DF7FE32DC8DBFD008F5EE8 /* RestaurantApp */,
 				B4DF7FE22DC8DBFD008F5EE8 /* Products */,
 			);
@@ -43,6 +53,16 @@
 				B4DF7FE12DC8DBFD008F5EE8 /* RestaurantApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B4DF800E2DC8DF60008F5EE8 /* packages */ = {
+			isa = PBXGroup;
+			children = (
+				B426FD9A2DC8E10D00A4679A /* RestaurantDetails */,
+				B4DF800C2DC8DF60008F5EE8 /* Checkout */,
+				B4DF800D2DC8DF60008F5EE8 /* RestaurantFinder */,
+			);
+			path = packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +129,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B426FD9B2DC8E10D00A4679A /* RestaurantDetails in Resources */,
+				B4DF80122DC8DF60008F5EE8 /* RestaurantFinder in Resources */,
+				B4DF80132DC8DF60008F5EE8 /* Checkout in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

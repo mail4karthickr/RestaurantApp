@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  RestaurantApp
+//  ResaurantApp
 //
 //  Created by Karthick Ramasamy on 05/05/25.
 //
