@@ -1,0 +1,42 @@
+# Ignore the packages folder
+packages/
+
+# Xcode
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Temporary files
+*.moved-aside
+*.swp
+*.lock
+*.tmp
+*.DS_Store
+
+# Logs
+*.log
+*.xcactivitylog
